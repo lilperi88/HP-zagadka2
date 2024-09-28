@@ -82,8 +82,9 @@
             var secretImage = document.getElementById("secretImage");
 
             if (haslo === poprawneHaslo) {
-                message.textContent = "Brawo! To prawidłowe hasło. Czas otworzyć księgę potworów, kod do kłódki znajdziecie w .";
+                message.textContent = "Brawo! To prawidłowe hasło. Czas otworzyć księgę potworów, kod do kłódki znajdziecie tu:";
                 message.style.color = "green";
+                align-items: center
                 secretImage.classList.remove("hidden"); // Wyświetlenie tajnego obrazka
             } else {
                 message.textContent = "Błędne hasło. Spróbuj ponownie.";
